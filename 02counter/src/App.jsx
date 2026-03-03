@@ -23,9 +23,13 @@ function App() {
       <h1>Understanding Hooks in React</h1>
       <p>Gonna keep the value of counter to be between 0 and 20</p>
       <h2>Counter value : {counter}</h2>
-      <button onClick={addValue}>Click me Add value: {counter}</button>
+      <button onClick={addValue}>
+        Click me Add value to counter: {counter}
+      </button>
       <br />
-      <button onClick={reduceValue}>Click me Remove value: {counter}</button>
+      <button onClick={reduceValue}>
+        Click me Remove value to counter: {counter}
+      </button>
       <p>footer: {counter}</p>
     </>
   );
